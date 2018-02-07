@@ -8,6 +8,6 @@ else
 	echo "Applyint script to $1"
 	export LC_COLLATE='C'
 	export LC_CTYPE='C'
-	sed -i '' 's|http.*\/\(.*\)\.git|http:\/\/git.dev.cmrh.com\/FrontEnd\/Architecture\/iOS\/\1.git|g' `grep 'http.*\/\(.*\)\.git' -rl ./`
+	sed -i '' 's|http.*\/\(.*\)\.git|http:\/\/git.dev.cmrh.com\/FrontEnd\/Vendors\/iOS\/\1.git|g' `grep 'http.*\/\(.*\)\.git' -rl ./`
 	echo "Done!"
 fi
